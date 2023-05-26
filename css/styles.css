@@ -1,21 +1,32 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-color: #4d5ae5;
+  --text-color: #2e2f42;
 }
 .header-title {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.link {
   text-decoration: none;
 }
 .logo-word {
-  color: #4d5ae5;
+  color: var(--text-color);
+}
+.list {
+  list-style: none;
 }
 .header-menu {
   font-family: "Roboto";
@@ -37,23 +48,27 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.header-menu-item:focus {
+.header-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.header-link:hover {
+  color: #404bbf;
+}
+.header-link:active {
   color: #434455;
 }
-.header-menu-item:hover {
-  color: #434455;
-}
-.header-menu-item:active {
-  color: #434455;
-}
-.header-menu-item {
-  color: #2e2f42;
+.header-link {
+  color: var(--text-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .header-contacts-item {
   color: #434455;
@@ -63,6 +78,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+}
+.header-contacts-item :hover {
+  color: #404bbf;
+}
+.header-contacts-item :focus {
+  color: #404bbf;
 }
 .header-menu-item {
   text-decoration: none;
@@ -81,7 +102,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -120,7 +140,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -134,7 +153,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -151,7 +169,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -161,7 +178,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
 }
