@@ -94,9 +94,12 @@ body {
   background-color: #2e2f42;
   line-height: 1.07;
 }
+.header-link link {
+  text-decoration: none;
+}
 .hero-btn {
   background-color: #4d5ae5;
-font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
