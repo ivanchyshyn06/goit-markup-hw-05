@@ -225,3 +225,55 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* Porfolio */
+.portfolio-button-item {
+  background-color: #f4f4fd;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  text-decoration: none;
+  cursor: pointer;
+}
+.portfolio-button-item:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio-button-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio-button-item:active {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio-button-list {
+  list-style-type: none;
+}
+.main-list {
+  list-style-type: none;
+}
+.main-list-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.main-list-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
