@@ -234,12 +234,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration: none;
   cursor: pointer;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 .portfolio-button-item:hover {
   background-color: #404bbf;
