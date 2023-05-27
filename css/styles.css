@@ -229,7 +229,7 @@ body {
 /* Porfolio */
 .portfolio-button-item {
   background-color: #f4f4fd;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -258,15 +258,16 @@ body {
 }
 .main-list {
   list-style-type: none;
+  text-decoration: none;
 }
 .main-list-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 .main-list-text {
   font-family: "Roboto";
@@ -276,4 +277,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.main-link {
+  text-decoration: none;
 }
