@@ -208,10 +208,13 @@ img {
   color: #404bbf;
 }
 .benefits {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
-.benefits-container {
-  padding-top: 120px;
+.benefits-li {
+  width: calc((100% - 72px) / 4);
+}
+.benefits-title {
+  visibility: hidden;
 }
 
 .benefits-item {
