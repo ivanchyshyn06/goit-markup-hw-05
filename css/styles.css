@@ -414,6 +414,13 @@ img {
 .main-list {
   list-style-type: none;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.main-list-item {
+  width: calc((100% - 48px) / 3);
 }
 .main-list-title {
   font-family: "Roboto";
@@ -423,6 +430,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 .main-list-text {
   font-family: "Roboto";
@@ -435,4 +443,11 @@ img {
 }
 .main-link {
   text-decoration: none;
+}
+.portfolio-items {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
 }
