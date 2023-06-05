@@ -145,6 +145,7 @@ img {
 .hero-container {
   background-color: #2e2f42;
   width: 100%;
+  text-align: center;
 }
 .header-link link {
   text-decoration: none;
@@ -175,6 +176,18 @@ img {
 .hero-btn:hover {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .hero-btn:focus {
   background-color: #404bbf;
 }
@@ -189,6 +202,7 @@ img {
   color: #ffffff;
   max-width: 496px;
   margin-bottom: 48px;
+  text-align: center;
 }
 .header-nav {
   display: flex;
@@ -445,9 +459,7 @@ img {
   text-decoration: none;
 }
 .portfolio-items {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: 0;
 }
