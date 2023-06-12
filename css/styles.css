@@ -9,6 +9,7 @@ body {
   --text-color: #2e2f42;
   --btn-color: #e7e9fc;
   --icons-color: #f4f4fd;
+  --primary-icon-color: #8e8f99;
 }
 
 p,
@@ -434,6 +435,25 @@ img {
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-links {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-icon-color);
+}
+.customers-links:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+..customers-links:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 .footer {
   background-color: #2e2f42;
