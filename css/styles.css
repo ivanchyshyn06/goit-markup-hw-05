@@ -336,6 +336,8 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item-links {
   background-color: #ffffff;
@@ -369,12 +371,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-soc-link:hover {
+  background-color: #404bbf;
+}
+.team-soc-link:focus {
+  background-color: #404bbf;
 }
 .team-icons {
   fill: var(--icons-color);
 }
 .team-name-item {
-  padding: 32px 16px;
+  padding: 32px 0;
   margin-bottom: 500px;
 }
 .team-name {
@@ -398,6 +407,31 @@ img {
   color: #434455;
   margin-bottom: 8px;
   text-align: center;
+}
+.customers {
+  padding: 120px 0 120px;
+}
+.customers-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-color);
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin-left: 0;
+  margin-right: 100px;
+}
+.customers-item {
+  width: calc((100% - 120px) / 6);
 }
 .footer {
   background-color: #2e2f42;
