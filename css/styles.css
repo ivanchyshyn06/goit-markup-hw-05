@@ -254,6 +254,16 @@ img {
 .benefits-li {
   width: calc((100% - 72px) / 4);
 }
+.benefits-icon-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4fd;
+  justify-content: center;
+  height: 122px;
+  width: 264px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 .benefits-item {
   font-family: "Roboto";
