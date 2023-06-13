@@ -122,6 +122,8 @@ img {
   padding: 24px 0;
   position: relative;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link::after {
   content: "";
@@ -167,6 +169,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .hero-container {
   width: 100%;
@@ -339,8 +342,6 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item-links {
   background-color: #ffffff;
@@ -348,6 +349,8 @@ img {
   height: 428px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team {
   background-color: #f4f4fd;
@@ -437,6 +440,8 @@ img {
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-links {
   width: 100%;
