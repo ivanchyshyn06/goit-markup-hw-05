@@ -519,6 +519,7 @@ img {
 .footer-soc-list {
   display: flex;
   gap: 16px;
+  list-style: none;
 }
 .footer-soc-link {
   height: 100%;
