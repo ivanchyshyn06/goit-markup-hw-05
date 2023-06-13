@@ -505,6 +505,8 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
+  margin-left: 156px;
 }
 .footer-soc {
   font-family: "Roboto";
@@ -530,12 +532,24 @@ img {
   align-items: center;
   justify-content: center;
 }
+.footer-soc-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-soc-link:focus {
+  background-color: #31d0aa;
+}
+
 .footer-soc-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon {
   fill: var(--icons-color);
+}
+.footer-soc-container {
+  margin-right: 692px;
 }
 
 /* Porfolio */
