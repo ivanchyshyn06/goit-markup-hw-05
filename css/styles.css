@@ -451,9 +451,18 @@ img {
   border-color: #404bbf;
   color: #404bbf;
 }
-..customers-links:focus {
+.customers-links:focus {
   border-color: #404bbf;
   color: #404bbf;
+}
+.customers-icons {
+  fill: currentColor;
+}
+.customers-icons:hover {
+  fill: #404bbf;
+}
+.customers-icons:focus {
+  fill: #404bbf;
 }
 .footer {
   background-color: #2e2f42;
