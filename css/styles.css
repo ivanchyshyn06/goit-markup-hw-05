@@ -10,6 +10,7 @@ body {
   --btn-color: #e7e9fc;
   --icons-color: #f4f4fd;
   --primary-icon-color: #8e8f99;
+  --main-color: #ffffff;
 }
 
 p,
@@ -500,6 +501,40 @@ img {
   margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-soc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  margin-bottom: 16px;
+}
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-soc-link {
+  height: 100%;
+  width: 100%;
+  background-color: var(--logo-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-icon {
+  fill: var(--icons-color);
 }
 
 /* Porfolio */
