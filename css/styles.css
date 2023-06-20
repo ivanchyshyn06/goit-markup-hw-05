@@ -804,6 +804,7 @@ img {
 
 .footer-form-item {
   display: flex;
+  gap: 24px;
 }
 
 .footer-label {
