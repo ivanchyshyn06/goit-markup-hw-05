@@ -758,6 +758,12 @@ img {
   fill: var(--icons-color);
 }
 
+.modal-form-input-checkbox:checked + .checkbox-label > .checkmark {
+  background-color: var(--modal-color);
+  border: none;
+  fill: var(--icons-color);
+}
+
 .modal-button:hover {
   background-color: #404bbf;
   fill: #ffffff;
